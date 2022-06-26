@@ -7,7 +7,7 @@ export default function Header() {
   const imageUrlKey = useContext(LOCAL_STORAGE_HEADER_KEY)
   let url = JSON.parse(localStorage.getItem(imageUrlKey))
   let style = {}
-  if(url.length > 0 ) {
+  if(url != null && url.length > 0) {
     style = {
       backgroundImage: "url(" + url + ")"
     }
