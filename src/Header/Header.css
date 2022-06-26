@@ -1,0 +1,23 @@
+:root {
+    --header-height: 350px;
+}
+
+#header-section {
+    /* background-color: var(--primary-colour); */
+    height: var(--header-height);
+    width: 100%;
+    line-height: var(--header-height);
+    background-image: url("https://cdn.discordapp.com/attachments/563630157123026945/990363668543856660/test.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#website-name {
+    font-size: 35px;
+    margin: 0 50px;
+
+    font-weight: 900;
+}

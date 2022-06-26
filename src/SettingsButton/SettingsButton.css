@@ -1,0 +1,17 @@
+:root {
+    --settings-button-size: 60px;
+}
+
+.settings-button {
+    width: var(--settings-button-size);
+    height: var(--settings-button-size);
+    line-height: var(--settings-button-size);
+    border-bottom-left-radius: 2px;
+    position:fixed;
+    top:0;
+    right: 0;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}

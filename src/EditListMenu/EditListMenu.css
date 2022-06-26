@@ -1,0 +1,13 @@
+.list-delete-row {
+    line-height: 40px;
+}
+.list-delete-button {
+    vertical-align: middle;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.list-delete-button:hover {
+    color: var(--text-hover);
+}

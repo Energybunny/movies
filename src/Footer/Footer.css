@@ -1,0 +1,17 @@
+:root {
+    --footer-height: 50px;
+}
+.footer-section {
+    background-color: var(--secondary-colour);
+    width: 100%;
+    min-height: var(--footer-height);
+    line-height: var(--footer-height);
+    text-align: center;
+}
+.footer-section span {
+    margin: 0 5vw;
+}
+
+.footer-section a, .footer-section a:visited {
+    color: var(--text-colour)
+}

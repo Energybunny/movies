@@ -1,0 +1,14 @@
+:root {
+    --list-selection-height: 100px;
+}
+
+.list-selection-bar {
+    min-height: var(--list-selection-height);
+    line-height: var(--list-selection-height);  
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    justify-content: center;
+    color: var(--button-text-colour);
+}

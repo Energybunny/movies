@@ -1,0 +1,26 @@
+.movie-details {
+    float: left;
+    width: calc(var(--popup-window-width)/2 - 20px);
+}
+
+.movie-details-poster {
+    width: calc(var(--popup-window-width)/2 - 20px);
+    height: calc((var(--popup-window-width)/2 - 20px) * 1.5);
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.movie-delete-button {
+    position: absolute;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    height: var(--popup-top-bar-height);
+    line-height: var(--popup-top-bar-height);
+    margin-top: calc(-1 * var(--popup-top-bar-height))
+}
+
+.movie-delete-button:hover {
+    color: var(--text-hover);
+}

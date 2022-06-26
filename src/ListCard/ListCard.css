@@ -1,0 +1,17 @@
+:root {
+    --list-card-height: calc(var(--list-selection-height) * 0.7);
+    --list-card-width: 150px;
+    --list-card-margin: calc(var(--list-selection-height) * 0.1)
+}
+.list-card {
+    min-width: var(--list-card-width);
+    padding: 0 10px;
+    height: var(--list-card-height);
+    line-height: var(--list-card-height);
+    margin: var(--list-card-margin);
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    border-radius: 2px;
+    cursor: pointer;
+}

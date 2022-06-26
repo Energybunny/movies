@@ -1,0 +1,29 @@
+:root {
+    --serach-bar-height: 16px;
+}
+
+.settings-menu {
+    overflow: auto;
+}
+
+.colour-theme {
+    border: solid 2px black;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.light-mode {
+    background-color: white;
+}
+.dark-mode {
+    background-color: black;
+}
+
+.settings-menu .search-bar {
+    height: var(--serach-bar-height);
+    line-height: var(--serach-bar-height);
+    vertical-align: middle;
+}

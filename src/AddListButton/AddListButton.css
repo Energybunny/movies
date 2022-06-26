@@ -1,0 +1,9 @@
+
+.add-list-button {
+    height: var(--list-card-height);
+    width: var(--list-card-height);
+    line-height: var(--list-card-height);
+    margin: var(--list-card-margin);
+    border-radius: 2px;
+    text-align: center;
+}

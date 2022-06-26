@@ -1,0 +1,11 @@
+:root {
+    --primary-colour: #104066;
+    --secondary-colour: #5B95C3;
+    --background-colour: #02233a;
+
+    --button-colour: #fe884e;
+    --button-hover: #97A3CD;
+
+    --text-colour: rgb(255, 249, 234);
+    --text-hover: rgb(102, 98, 90);
+}
