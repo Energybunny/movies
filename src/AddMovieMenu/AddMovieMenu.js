@@ -18,7 +18,7 @@ function search(input, setter) {
   selectedMovie = null
   let searchTerm = input.current.value
   let tempResults = []
-  axios.get('https://api.themoviedb.org/3/search/movie?api_key=1792246f2d8a3a9dfa6868c1a215e91b&query=' + searchTerm.replaceAll(" ", "+"))
+  axios.get('https://api.themoviedb.org/3/search/movie?api_key=YOUR-KEY-HERE&query=' + searchTerm.replaceAll(" ", "+"))
   .then(res => {    
     let max = 20;
     if(res.data.results.length < max) max = res.data.results.length
